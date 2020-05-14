@@ -29,7 +29,7 @@
                 else{
                     ?>
                     <form method="post" action="index.php?register">
-                        <p>Admin Login</p>
+                        <p>Create account</p>
                         <label>First Name</label>
                         <input type="text" name="fname" />
                         <label>Last Name</label>
