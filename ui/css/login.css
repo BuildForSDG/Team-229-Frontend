@@ -1,0 +1,59 @@
+.boxlayout{
+    max-width: 300px;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.boxshadow{
+    box-shadow: 0px 0px 7px #555;
+}
+.boxborder{
+    border: 1px solid #eee;
+}
+.boxlayout > div{
+    margin: 10px;
+    padding: 20px 5px;
+}
+.boxlayout > div p:nth-child(1){
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.boxlayout > div p.error{
+    color: #f00;
+    padding: 7px 0px;
+}
+.boxlayout > div label{
+    font-size: 15px;
+    /* margin: 5px 0px; */
+}
+.boxlayout > div input, .boxlayout > div select, .boxlayout > div textarea{
+    resize: none;
+    border: none;
+    border-bottom: 2px solid #f6501e;
+    color: #000;
+    padding: 5px 2%;
+    width: 95%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.boxlayout > div textarea{
+    border: 1px solid #ffab91;
+    border-radius: 4px;
+    height: 54px;
+}
+.boxlayout > div button, .link_alt, .dummyButton{
+    background: #f6501e;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 0px;
+    width: 85px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+.link_alt{
+    background: #000;
+}

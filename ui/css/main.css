@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+    outline: none;
+    transition: 0.3s all;
+}
+body, html{
+    font-size: 12px;
+}
+a{
+    color: #ff6600;
+    text-decoration: none;
+}
+.bigButton{
+    margin: 10px;
+}
+.logo_section{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    border: 2px solid #ccc;
+    margin: 0px auto;
+}
+.bigButton a{
+    color: #fff;
+    background: #f58766;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 1s;
+}
+.bigButton a:hover{
+    background: #000;
+    transform: scale(1.1);
+    transition: .1s;
+}
+.survey_slidemaster{
+    border: 1px solid #000;
+    max-width: 500px;
+    margin: 0px auto;
+}
