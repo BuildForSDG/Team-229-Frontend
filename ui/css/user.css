@@ -1,0 +1,139 @@
+nav.nav{
+    float: left;
+    width: 250px;
+}
+nav.nav > div{
+    border-right: 1px solid #ffe1ce;
+    padding: 10px;
+    background: #fdfdfd;
+}
+nav.nav a{
+    display: block;
+    border-top: 1px solid #ffebdd;
+    padding: 10px;
+    color: #000;
+}
+nav.nav a:first-child{
+    border: none;
+}
+nav.nav a:last-child{
+    border: none;
+    background: #c51d1d;
+    color: #fff;
+    max-width: 130px;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 0px 2px 7px #ccc;
+    margin: 50px auto;
+}
+section{
+    float: left;
+    color: #777;
+    /* background: #000; */
+    /* height: 100px; */
+}
+section.r > div{
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+.topbar{
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    color: #777;
+    background: #f7f7f7;
+}
+
+.topbar p:nth-child(1){
+    float: left;
+    font-size: 23px;
+}
+.topbar p:nth-child(2){
+    float: right;
+    font-size: 15px;
+}
+
+.user_container{
+    margin: 0px auto;
+    max-width: 1100px;
+}
+.topbar::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.topbar *{
+    margin: 0px;
+    padding: 0px;
+}
+.user_container > div{
+    /* border: 1px solid #ccc; */
+    box-shadow: 0px 0px 13px #d2d2d2;
+    border-radius: 4px;
+    overflow: hidden;
+}
+section.r .ph1{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+section.r .survey{
+    display: block;
+    float: right;
+    margin-top: -27px;
+    background: #7edab4;
+    padding: 6px 10px;
+    color: #fff;
+}
+section.r table{
+    border: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    width: 100%;
+}
+section.r table tr:nth-child(1){
+    background: #c79573;
+    color: #fff;
+}
+section.r table th, section.r table td{
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-left: none;
+    padding: 5px;
+}
+section.r table tr:hover{
+    transition: none;
+    background: #ff6600;
+    cursor: pointer;
+    color: #fff;
+}
+section.r table .responses, section.r table .edituser{
+    background: #9c7358;
+    color: #fff;
+    display: block;
+    margin: -5px;
+    padding: 5px;
+    text-align: center;
+}
+section.r table tr:nth-child(even) .responses, section.r table tr:nth-child(even) .edituser{
+    background: #dead8d;
+}
+section.r table .editbutton, .newQuestion{
+    margin: 0px auto;
+    background: #77c39c;
+    display: block;
+    width: 72px;
+    text-align: center;
+    color: #fff;
+    padding: 6px 0px;
+    border-radius: 4px;
+}
+.newQuestion{
+    width: 120px;
+    float: right;
+    margin-top: -35px;
+    padding: 8px 0px;
+}
+button.newoption{
+    background: #000;
+}

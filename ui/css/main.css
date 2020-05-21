@@ -2,6 +2,7 @@
     font-family: sans-serif;
     outline: none;
     transition: 0.3s all;
+    margin: 0px;
 }
 body, html{
     font-size: 12px;
@@ -39,4 +40,39 @@ a{
     border: 1px solid #000;
     max-width: 500px;
     margin: 0px auto;
+}
+.mg5{
+    margin: 5px;
+}
+.mg10{
+    margin: 10px;
+}
+.ca::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.searchbar > p{
+    font-size: 22px;
+}
+.searchbar > div.ca{
+    border: 1px solid #000;
+    border-radius: 6px;
+    overflow: hidden;
+    display: inline-block;
+}
+.searchbar > div.ca > input{
+    float: left;
+    min-width: 300px;
+    border: none;
+    padding: 7px 10px;
+}
+.searchbar > div.ca > button{
+    float: left;
+    width: 85px;
+    color: #fff;
+    border: none;
+    padding: 7px 0px;
+    background: #ffa568;
+    border-left: 1px solid #000;
 }
