@@ -8,30 +8,39 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/login_signup.js"></script>
   </head>
   <body>
     <div class="boxlayout boxshadow">
       <div>
         <!--
-        User registration. 
+        User registration.
         -->
-        <form method="post" action="">
-          <p>Create account</p>
-          <label>First Name</label>
-          <input type="text" name="fname" />
-          <label>Last Name</label>
-          <input type="text" name="lname" />
-          <label>Address</label>
-          <input type="text" name="address" />
-          <label>Email</label>
-          <input type="text" name="email" placeholder="peter@example.com" />
-          <label>Password</label>
-          <input type="password" name="pass1" placeholder="7^FG&FV" />
-          <label>Re-type Password</label>
-          <input type="password" name="pass2" placeholder="7^FG&FV" />
-          <button type="submit" name="login">Register</button>
-          <a class="link_alt" href="index.html">Login</a>
-          <p class="error" style="display: none; clear: both;"></p>
+        <form class="ca">
+            <p>Create account</p>
+            <label>First Name</label>
+            <input type="text" />
+            <label>Last Name</label>
+            <input type="text" />
+            <label>Contact</label>
+            <input type="text" />
+            <label>Address 1</label>
+            <input type="text" />
+            <label>Address 2</label>
+            <input type="text" />
+            <label>Email</label>
+            <input type="text" placeholder="peter@example.com" />
+            <label>Gender</label>
+            <select>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select>
+            <label>Password</label>
+            <input type="password" placeholder="7^FG&FV" />
+            <label>Re-type Password</label>
+            <input type="password" placeholder="7^FG&FV" />
+            <button type="submit">Register</button>
+            <a class="link_alt" href="index.html">Login</a>
         </form>
       </div>
     </div>

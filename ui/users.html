@@ -9,18 +9,20 @@
     <link rel="stylesheet" type="text/css" href="css/user.css">
     <script src="js/jquery.js"></script>
     <script src="js/users.js"></script>
+    <script src="js/users2.js"></script>
   </head>
   <body>
     <div class="user_container">
       <div class="mg10 ca">
         <div class="topbar ca">
-          <p>Dashboard</p>
+          <p>Edu Forum - Dashboard</p>
           <p>Mukiibi Peter</p>
         </div>
         <nav class="nav">
           <div>
-            <a href="activities.html">Activity</a>
-            <a href="answered.html">Answered questions</a>
+            <!-- <a href="activities.html">Activity</a> -->
+            <a href="activities.html">Progress</a>
+            <!-- <a href="analysis.html">Analysis</a> -->
             <a href="questions.html">Question sets</a>
             <a href="users.html" style="background: #ff6600;color: #fff;">Users</a>
             <a href="index.html">logout</a>
@@ -37,22 +39,28 @@
             </div>
             <!-- Here's a list of users who signed up -->
             <p class="ph1">Users</p>
-            <table cellpadding="0" cellspacing="0">
-              <tr>
-                <th>ID</th>
-                <th>FULL NAME</th>
-                <th>EMAIL</th>
-                <th>ADDRESS</th>
-                <th style="background: #8c654b;">ACTION</th>
-              </tr>
-              <tr>
-                <td>54</td>
-                <td>Edgar Ssensalo</td>
-                <td>admin@example.com</td>
-                <td>Mengo, Uganda</td>
-                <td><a href="#" class="edituser">edit</a></td>
-              </tr>
-            </table>
+            <div id="rc">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <th>ID</th>
+                        <th>FULL NAME</th>
+                        <th>EMAIL</th>
+                        <th>ADDRESS</th>
+                        <th>ADMIN</th>
+                        <th>ACTIVE</th>
+                        <th style="background: #8c654b;">ACTION</th>
+                    </tr>
+                    <tr>
+                        <td>54</td>
+                        <td>Edgar Ssensalo</td>
+                        <td>admin@example.com</td>
+                        <td>Mengo, Uganda</td>
+                        <td style="text-align: center;"><input type="checkbox" /></td>
+                        <td style="text-align: center;"><input type="checkbox" /></td>
+                        <td><a href="edit_user.html" class="edituser">edit</a></td>
+                    </tr>
+                </table>
+            </div>
           </div>
         </section>
       </div>

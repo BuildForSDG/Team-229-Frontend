@@ -14,6 +14,14 @@ a {
 .bigButton {
   margin: 10px;
 }
+.lblock label{
+  display: block;
+}
+.ca::after{
+  clear: both;
+  display: block;
+  content: '';
+}
 .logo_section {
   border-radius: 100px;
   width: 100px;
