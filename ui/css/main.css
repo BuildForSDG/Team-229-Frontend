@@ -4,7 +4,7 @@
   transition: 0.3s all;
   margin: 0;
 }
-body, html{
+body, html {
   font-size: 12px;
 }
 a {
@@ -14,10 +14,10 @@ a {
 .bigButton {
   margin: 10px;
 }
-.lblock label{
+.lblock label {
   display: block;
 }
-.ca::after{
+.ca::after {
   clear: both;
   display: block;
   content: '';

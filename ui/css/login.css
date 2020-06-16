@@ -4,11 +4,11 @@
   overflow: hidden;
   border-radius: 5px;
 }
-.mw500{
-    max-width: 500px;
+.mw500 {
+  max-width: 500px;
 }
-.mw400{
-    max-width: 400px;
+.mw400 {
+  max-width: 400px;
 }
 .boxshadow {
   box-shadow: 0 0 7px #555;
